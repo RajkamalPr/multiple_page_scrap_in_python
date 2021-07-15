@@ -1,0 +1,21 @@
+title:
+  css: '#productTitle'
+  type: Text
+author_name:
+  css: '#bylineInfo > span > span.a-declarative > a.a-link-normal.contributorNameID'
+  type: Text
+
+
+rating:
+  css: '#acrPopover > span.a-declarative > a > i.a-icon.a-icon-star > span'
+  type: Text
+
+# price YML code...
+paperback_price:
+  css: '#tmmSwatches > ul > li > span > span:nth-child(3) > span > span > a'
+  type: Text
+
+# Kindle Price YML code...
+kindle_price:
+  css: '#a-autoid-11-announce > span.a-color-secondary > span'
+  type: Text
